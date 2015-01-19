@@ -10,11 +10,23 @@ namespace components\UserManager;
 
 
 use components\AbstractComponent;
+use components\AbstractComponentInjector;
 use components\ComponentInterface;
 use components\UserManager\versions\v1\UserManager as v1UserManager;
 
 class UserManager extends AbstractComponent implements ComponentInterface
 {
+    /**
+     * @param AbstractComponentInjector $componentInjector
+     */
+    public function __construct(AbstractComponentInjector $componentInjector = null)
+    {
+        echo "starting";
+        //$this->loadComponent();
+       // $componentInjector->inject(self::$instance);
+    }
+
+
     /**
      * Loads a component based on current version
      * @return mixed
@@ -24,10 +36,10 @@ class UserManager extends AbstractComponent implements ComponentInterface
         switch($this->currentVersion)
         {
             case "1.0":
-                self::$instance = ((!is_null(self::$instance) && self::$instance instanceof v1UserManager) ? self::$instance : new v1UserManager());
+                UserManager::$instance = new v1UserManager();
                 break;
             default:
-                self::$instance = $this;
+                UserManager::$instance = $this;
                 break;
         }
     }

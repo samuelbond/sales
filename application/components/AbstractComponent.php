@@ -32,11 +32,8 @@ Abstract Class AbstractComponent
     /**
      * @param AbstractComponentInjector $componentInjector
      */
-    public function __construct(AbstractComponentInjector $componentInjector = null)
-    {
-        $this->loadComponent();
-        $componentInjector->inject(self::$instance);
-    }
+    abstract public function __construct(AbstractComponentInjector $componentInjector = null);
+
     /**
      * Loads a component based on current version
      * @return void
