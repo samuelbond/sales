@@ -28,7 +28,8 @@ class UserManagerInjector extends AbstractComponentInjector{
      */
     public function needed(array $parameters)
     {
-        throw new \Exception("Invalid or incomplete parameters provided");
+        //throw new \Exception("Invalid or incomplete parameters provided");
+        echo "yes boss";
     }
 
 
