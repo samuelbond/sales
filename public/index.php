@@ -14,6 +14,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
+define('PUBLIC_PATH', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 
 /** Zend_Application */
 require_once 'Zend/Application.php';

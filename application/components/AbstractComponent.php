@@ -1,20 +1,20 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: samuel
- * Date: 16/01/15
- * Time: 15:20
+ * @author Samuel I Amaziro
  */
 
 namespace components;
 
-
+/**
+ * Class AbstractComponent
+ * @package components
+ */
 Abstract Class AbstractComponent
 {
     /**
      * @var string
      */
-    protected $currentVersion = "1.0";
+    protected  $currentVersion = "1.0";
     /**
      * @var null|AbstractComponent
      */
@@ -27,18 +27,26 @@ Abstract Class AbstractComponent
      * Contains needed parameters passed to component
      * @var null|array
      */
-    private static $configuration;
-
+    protected  static $configuration;
     /**
-     * @param AbstractComponentInjector $componentInjector
+     * @var AbstractComponentInjector $componentInjector
      */
-    abstract public function __construct(AbstractComponentInjector $componentInjector = null);
+    protected static $injector;
+
+
 
     /**
      * Loads a component based on current version
      * @return void
      */
     abstract protected function loadComponent();
+
+    /**
+     * Returns an instance of the component
+     * @param AbstractComponentInjector $componentInjector
+     * @return null|$this
+     */
+    abstract public function getInstance(AbstractComponentInjector $componentInjector);
 
     /**
      * Gets the current version of the component
@@ -64,7 +72,7 @@ Abstract Class AbstractComponent
     {
         if(in_array($version, $this->getAvailableVersions()))
         {
-            $this->currentVersion = $version;
+           $this->currentVersion = $version;
         }
     }
 

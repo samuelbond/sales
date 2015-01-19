@@ -1,14 +1,14 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: samuel
- * Date: 16/01/15
- * Time: 15:39
+ * @author Samuel I Amaziro
  */
 
 namespace components;
 
-
+/**
+ * Class AbstractComponentInjector
+ * @package components
+ */
 Abstract Class AbstractComponentInjector {
 
     /**

@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915cc87a-0793-490f-ad24-1809252cd142" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/files/imaginary.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/components/ComponentInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/components/UserManager/DoctrineUserManagerDAO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/components/UserManager/MysqliUserManagerDAO.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/components/UserManager/UserManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/components/UserManager/versions/v1/UserManager.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/components/UserManager/UserManagerDAO.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerInjector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AbstractComponent.php" afterPath="$PROJECT_DIR$/application/components/AbstractComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AbstractComponentInjector.php" afterPath="$PROJECT_DIR$/application/components/AbstractComponentInjector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AbstractDAO.php" afterPath="$PROJECT_DIR$/application/components/AbstractDAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/UserManager/UserManager.php" afterPath="$PROJECT_DIR$/application/components/UserManager/UserManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php" afterPath="$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sales_app.iml" afterPath="$PROJECT_DIR$/.idea/sales_app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sales_app.iws" />
@@ -29,51 +44,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserManager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/components/UserManager/UserManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="10" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.583333" vertical-offset="55" max-vertical-offset="885">
-              <folding>
-                <element signature="e#124#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="480">
+            <state line="35" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.5898876" vertical-offset="0" max-vertical-offset="890">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <file leaf-file-name="AdvertTransformer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractComponent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/components/AbstractComponent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="94" selection-start="674" selection-end="674" vertical-scroll-proportion="-7.0" vertical-offset="267" max-vertical-offset="1335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagerInjector.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="28" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.9322034" vertical-offset="0" max-vertical-offset="1110">
+            <state line="55" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="-31.458334" vertical-offset="70" max-vertical-offset="960">
               <folding>
-                <element signature="e#124#157#0" expanded="true" />
+                <element signature="e#6#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imaginary.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/files/imaginary.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="183" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sales.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="435">
+              <folding>
+                <element signature="e#6#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLAdvertTransformerDAO.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="33" selection-start="324" selection-end="337" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="690">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,12 +106,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/ErrorController.php" />
         <option value="$PROJECT_DIR$/application/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/application/components/AbstractComponent.php" />
-        <option value="$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php" />
+        <option value="$PROJECT_DIR$/application/components/ComponentInterface.php" />
+        <option value="$PROJECT_DIR$/application/components/UserManager/versions/v1/UserManager.php" />
         <option value="$PROJECT_DIR$/application/components/UserManager/UserManager.php" />
+        <option value="$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformer.php" />
+        <option value="$PROJECT_DIR$/application/components/AbstractDAO.php" />
+        <option value="$PROJECT_DIR$/application/components/AbstractComponentInjector.php" />
+        <option value="$PROJECT_DIR$/application/components/AbstractComponent.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/MysqliUserManagerDAO.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/DoctrineUserManagerDAO.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerInjector.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/files/imaginary.xml" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
       </list>
     </option>
@@ -105,8 +133,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1535" />
-    <option name="height" value="876" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -149,7 +177,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -159,11 +187,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,7 +201,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sales_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -187,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -205,7 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -223,7 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -235,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManager" />
+              <option name="myItemId" value="AdvertTransformer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -257,15 +303,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UserManager" />
+              <option name="myItemId" value="AdvertTransformer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="versions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,28 +376,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="165" y="124" width="1655" height="856" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24983256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25261998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -378,6 +421,46 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+            <element signature="e#84#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AbstractComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="94" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerInjector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="28" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1110">
+          <folding>
+            <element signature="e#85#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
@@ -387,16 +470,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/Zend/Test/PHPUnit/ControllerTestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="70" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-0.7394366" vertical-offset="945" max-vertical-offset="17295">
-          <folding />
-        </state>
+        <state line="46" column="70" selection-start="1465" selection-end="1465" vertical-scroll-proportion="-0.7394366" vertical-offset="945" max-vertical-offset="17295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/application/controllers/IndexControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="52" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="2" column="52" selection-start="59" selection-end="59" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
@@ -408,16 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/UserManager/MysqliUserManagerDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="734" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
@@ -427,77 +497,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/AbstractDAO.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="585">
+        <state line="11" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="0.18539326" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
+    <entry file="file://$PROJECT_DIR$/application/components/AbstractComponentInjector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="0.23305085" vertical-offset="0" max-vertical-offset="945">
+        <state line="9" column="22" selection-start="127" selection-end="127" vertical-scroll-proportion="0.12096774" vertical-offset="0" max-vertical-offset="868">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="41" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="810">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+            <element signature="e#84#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.91573036" vertical-offset="175" max-vertical-offset="1110">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AbstractDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="113" selection-end="113" vertical-scroll-proportion="0.11797753" vertical-offset="0" max-vertical-offset="890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerInjector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="72" selection-start="1042" selection-end="1051" vertical-scroll-proportion="0.60674155" vertical-offset="135" max-vertical-offset="1050">
+          <folding>
+            <element signature="e#85#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="462" selection-end="462" vertical-scroll-proportion="0.32022473" vertical-offset="0" max-vertical-offset="890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/UserManager/versions/v1/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16949153" vertical-offset="0" max-vertical-offset="708">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/UserManager/DoctrineUserManagerDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/UserManager/UserManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="582" selection-end="582" vertical-scroll-proportion="-9.583333" vertical-offset="55" max-vertical-offset="885">
-          <folding>
-            <element signature="e#124#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="481" selection-end="481" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="480">
+        <state line="16" column="69" selection-start="561" selection-end="561" vertical-scroll-proportion="0.26966292" vertical-offset="0" max-vertical-offset="890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/components/AbstractComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="94" selection-start="674" selection-end="674" vertical-scroll-proportion="-7.0" vertical-offset="267" max-vertical-offset="1335">
+        <state line="9" column="22" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11797753" vertical-offset="0" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/UserManager/UserManagerInjector.php">
+    <entry file="file://$PROJECT_DIR$/public/files/imaginary.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.9322034" vertical-offset="0" max-vertical-offset="1110">
+        <state line="6" column="18" selection-start="183" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="435">
           <folding>
-            <element signature="e#124#157#0" expanded="true" />
+            <element signature="e#6#86#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="33" selection-start="324" selection-end="337" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="-31.458334" vertical-offset="70" max-vertical-offset="960">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.5898876" vertical-offset="0" max-vertical-offset="890">
+          <folding />
         </state>
       </provider>
     </entry>
