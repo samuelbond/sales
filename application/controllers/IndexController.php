@@ -10,7 +10,12 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+       $injector = new \components\UserManager\UserManagerInjector();
+        $injector->needed(array("database_connection"));
+        $injector->setDAO("doctrine");
+        $component = new \components\UserManager\UserManager($injector);
+        echo "i am here";
+        //var_dump($component::getInstance());
     }
 
 
