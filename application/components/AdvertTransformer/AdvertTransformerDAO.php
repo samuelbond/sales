@@ -40,13 +40,6 @@ abstract class AdvertTransformerDAO extends AbstractDAO{
      */
     abstract public function fetchAllSales();
 
-    /**
-     * Get a sale based on an order ref
-     * @throws |Exception
-     * @param $orderRef string
-     * @return array
-     */
-    abstract public function fetchSalesByOrderRef($orderRef);
 
     /**
      * @param null|string $dataStoreName

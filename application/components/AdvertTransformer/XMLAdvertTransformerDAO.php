@@ -19,23 +19,23 @@ class XMLAdvertTransformerDAO extends AdvertTransformerDAO{
      */
     public function fetchAllSales()
     {
-        $xmlObject = $this->readXML();
+        try
+        {
+            $xmlObject = $this->readXML();
+            if($xmlObject instanceof \SimpleXMLElement)
+            {
+                return ((isset($xmlObject->sale)) ? $xmlObject : array());
+            }
+            throw new \Zend_Exception("Could not read xml file provided");
+        }catch (\Exception $ex)
+        {
+            throw new \Zend_Exception("An error occurred while trying to read xml file");
+        }
 
-        return ((isset($xmlObject->sale)) ? $xmlObject : array());
     }
 
     /**
-     * Get a sale based on an order ref
      * @throws |Exception
-     * @param $orderRef string
-     * @return array
-     */
-    public function fetchSalesByOrderRef($orderRef)
-    {
-        // TODO: Implement fetchSalesByOrderRef() method.
-    }
-
-    /**
      * @return \SimpleXMLElement
      */
     protected function readXML()

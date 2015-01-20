@@ -27,7 +27,8 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         Zend_View_Helper_PaginationControl::setDefaultViewPartial('controls.phtml');
-
+        try
+        {
         $this->component->transformAllSales();
         $transformedSales = $this->component->getTransformedSales();
         $paginator = Zend_Paginator::factory($transformedSales);
@@ -35,6 +36,10 @@ class IndexController extends Zend_Controller_Action
         $paginator->setCurrentPageNumber($this->_getParam('page', 1));
         $this->view->paginator = $paginator;
         $this->render();
+        }catch (\Zend_Exception $ex)
+        {
+            echo $ex->getMessage();
+        }
 
 
     }

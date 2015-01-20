@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915cc87a-0793-490f-ad24-1809252cd142" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/scripts/controls.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Bootstrap.php" afterPath="$PROJECT_DIR$/application/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sales_app.iws" />
@@ -29,46 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+      <file leaf-file-name="AdvertTransformerDAO.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="70" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.5889146" vertical-offset="0" max-vertical-offset="866">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controls.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/scripts/controls.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="51" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="645">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvertTransformer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="-31.458334" vertical-offset="70" max-vertical-offset="960">
+            <state line="41" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="-20.75" vertical-offset="117" max-vertical-offset="1005">
               <folding>
                 <element signature="e#6#41#0" expanded="true" />
               </folding>
@@ -76,30 +39,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imaginary.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/files/imaginary.xml">
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="183" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13620">
+            <state line="40" column="35" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sales.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php">
+      <file leaf-file-name="XMLAdvertTransformerDAO.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="435">
-              <folding>
-                <element signature="e#6#86#0" expanded="true" />
-              </folding>
+            <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6756757" vertical-offset="0" max-vertical-offset="888">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLAdvertTransformerDAO.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
+      <file leaf-file-name="ErrorController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="324" selection-end="337" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="690">
+            <state line="11" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -118,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/ErrorController.php" />
         <option value="$PROJECT_DIR$/application/components/ComponentInterface.php" />
         <option value="$PROJECT_DIR$/application/components/UserManager/versions/v1/UserManager.php" />
         <option value="$PROJECT_DIR$/application/components/UserManager/UserManager.php" />
@@ -129,18 +89,19 @@
         <option value="$PROJECT_DIR$/application/components/AbstractComponent.php" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/MysqliUserManagerDAO.php" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/DoctrineUserManagerDAO.php" />
-        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerInjector.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/public/files/imaginary.xml" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php" />
-        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/te.html" />
         <option value="$PROJECT_DIR$/application/Bootstrap.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/controls.phtml" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ErrorController.php" />
+        <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
       </list>
     </option>
   </component>
@@ -270,55 +231,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdvertTransformer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,7 +341,11 @@
       <created>1421709997985</created>
       <updated>1421709997985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pagination Added">
+      <created>1421712321925</created>
+      <updated>1421712321925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -432,7 +389,8 @@
     </option>
     <MESSAGE value="versions autoload" />
     <MESSAGE value="logic added" />
-    <option name="LAST_COMMIT_MESSAGE" value="logic added" />
+    <MESSAGE value="Pagination Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pagination Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -511,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="0.18539326" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/components/AbstractComponentInjector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="22" selection-start="127" selection-end="127" vertical-scroll-proportion="0.12096774" vertical-offset="0" max-vertical-offset="868">
@@ -531,15 +482,6 @@
           <folding>
             <element signature="e#6#41#0" expanded="true" />
             <element signature="e#84#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1324" selection-end="1324" vertical-scroll-proportion="0.91573036" vertical-offset="175" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#6#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,30 +518,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/files/imaginary.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="183" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13620">
+        <state line="6" column="18" selection-start="183" selection-end="192" vertical-scroll-proportion="0.098684214" vertical-offset="0" max-vertical-offset="13620">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/Sales.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="435">
+        <state line="21" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.35472974" vertical-offset="0" max-vertical-offset="888">
           <folding>
             <element signature="e#6#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="324" selection-end="337" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/versions/v1/AdvertTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="-31.458334" vertical-offset="70" max-vertical-offset="960">
+        <state line="55" column="0" selection-start="1397" selection-end="1397" vertical-scroll-proportion="0.8502252" vertical-offset="70" max-vertical-offset="960">
           <folding>
             <element signature="e#6#41#0" expanded="true" />
           </folding>
@@ -608,28 +543,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="600">
+        <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.11824324" vertical-offset="0" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="645">
+        <state line="31" column="0" selection-start="762" selection-end="762" vertical-scroll-proportion="0.5236486" vertical-offset="0" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/scripts/controls.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="51" selection-start="1402" selection-end="1402" vertical-scroll-proportion="-23.75" vertical-offset="0" max-vertical-offset="810">
+        <state line="38" column="51" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.6418919" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="-20.75" vertical-offset="117" max-vertical-offset="1005">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="70" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.5889146" vertical-offset="0" max-vertical-offset="866">
+        <state line="40" column="35" selection-start="1421" selection-end="1421" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6756757" vertical-offset="0" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
