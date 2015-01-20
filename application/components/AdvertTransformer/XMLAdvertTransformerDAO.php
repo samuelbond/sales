@@ -26,10 +26,10 @@ class XMLAdvertTransformerDAO extends AdvertTransformerDAO{
             {
                 return ((isset($xmlObject->sale)) ? $xmlObject : array());
             }
-            throw new \Zend_Exception("Could not read xml file provided");
+            throw new \Exception("Could not read xml file provided");
         }catch (\Exception $ex)
         {
-            throw new \Zend_Exception("An error occurred while trying to read xml file");
+            throw new \Exception("An error occurred while trying to read xml file");
         }
 
     }

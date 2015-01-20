@@ -16,34 +16,45 @@ class AdvertTransformer extends \components\AdvertTransformer\AdvertTransformer{
     {
         $this->transformedSales = array();
 
-        $transformationOne = function ($amount)
-        {
-            $percent = 5/100 * $amount;
-            $pence =  50/100;
-            $com = $percent + $pence;
-            $commission = sprintf('%.2f', $com);
-
-            return $commission;
-        };
-
-        $transformationTwo = function ($dateTime)
-        {
-            return strtotime($dateTime);
-        };
-
         $data = $this->dao->fetchAllSales();
 
         foreach($data as $sale)
         {
             $amount = $sale->amount;
-            $commission = $transformationOne($amount);
+            $commission = $this->transformationOne($amount);
             $affiliate = $sale->affiliate;
             $orderRef = $sale->orderRef;
             $datetime = $sale->datetime;
-            $unixTimeStamp = $transformationTwo($datetime);
+            $unixTimeStamp = $this->transformationTwo($datetime);
             $this->transformedSales[] = $affiliate."|".$amount."|".$commission."|".$unixTimeStamp."|"."\"".$orderRef."\"";
         }
     }
+
+    /**
+     * Converts a given date into a UNIX Time Stamp
+     * @param $dateTime
+     * @return int
+     */
+    public function transformationTwo($dateTime)
+    {
+        return strtotime($dateTime);
+    }
+
+    /**
+     * Calculates the commission payable
+     * @param $amount
+     * @return string
+     */
+    public function transformationOne($amount)
+    {
+        $percent = 5/100 * $amount;
+        $pence =  50/100;
+        $com = $percent + $pence;
+        $commission = number_format(round($com, 2),2);
+
+        return $commission;
+    }
+
 
     /**
      * @return mixed

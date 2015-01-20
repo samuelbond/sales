@@ -18,7 +18,6 @@ class AdvertTransformer extends AbstractComponent
 
     /**
      * Loads a component based on current version
-     * @return mixed
      */
     protected function loadComponent()
     {
@@ -36,7 +35,7 @@ class AdvertTransformer extends AbstractComponent
     /**
      * Returns an instance of the component
      * @param AbstractComponentInjector $componentInjector
-     * @return null|$this
+     * @return null|$this|\components\AdvertTransformer\versions\v1\AdvertTransformer
      */
     public function getInstance(AbstractComponentInjector $componentInjector)
     {

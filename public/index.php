@@ -19,6 +19,8 @@ define('PUBLIC_PATH', realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR);
 /** Zend_Application */
 require_once 'Zend/Application.php';
 
+require_once dirname(PUBLIC_PATH).DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."autoload.php";
+
 // Create application, bootstrap, and run
 $application = new Zend_Application(
     APPLICATION_ENV,

@@ -36,7 +36,7 @@ class IndexController extends Zend_Controller_Action
         $paginator->setCurrentPageNumber($this->_getParam('page', 1));
         $this->view->paginator = $paginator;
         $this->render();
-        }catch (\Zend_Exception $ex)
+        }catch (\Exception $ex)
         {
             echo $ex->getMessage();
         }

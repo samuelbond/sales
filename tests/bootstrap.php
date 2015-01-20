@@ -14,5 +14,19 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path(),
 )));
 
-require_once 'Zend/Loader/Autoloader.php';
-Zend_Loader_Autoloader::getInstance();
+define('PUBLIC_PATH', dirname(realpath(dirname(__FILE__))).DIRECTORY_SEPARATOR."public".DIRECTORY_SEPARATOR);
+
+require_once dirname(PUBLIC_PATH).DIRECTORY_SEPARATOR."vendor".DIRECTORY_SEPARATOR."autoload.php";
+
+//require_once 'Zend/Loader/Autoloader.php';
+$loader = function($className)
+{
+    $path = APPLICATION_PATH.DIRECTORY_SEPARATOR.str_replace("\\", DIRECTORY_SEPARATOR, $className) . '.php';
+    if(file_exists($path))
+    {
+        require_once $path;
+    }
+};
+spl_autoload_register($loader);
+//$autoloader = Zend_Loader_Autoloader::getInstance();
+//$autoloader->pushAutoloader($loader, 'components\\');
