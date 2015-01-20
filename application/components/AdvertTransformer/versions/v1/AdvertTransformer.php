@@ -12,6 +12,9 @@ class AdvertTransformer extends \components\AdvertTransformer\AdvertTransformer{
 
     private $transformedSales;
 
+    /**
+     * Transform all sales data
+     */
     public function transformAllSales()
     {
         $this->transformedSales = array();
