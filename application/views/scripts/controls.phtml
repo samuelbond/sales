@@ -1,0 +1,48 @@
+<?php if ($this->pageCount): ?>
+
+<nav>
+    <ul class="pagination">
+        <li>
+            <?php if (isset($this->previous)): ?>
+                <a href="<?php echo $this->url(array('page' => $this->previous)); ?>" aria-label="Previous">
+                    <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+            <?php else: ?>
+                <span class="disabled">&laquo; Previous</span>
+            <?php endif; ?>
+
+        </li>
+        <li>
+            <?php if (isset($this->previous)): ?>
+            <a href="<?php echo $this->url(array('page' => $this->first)); ?>">
+                First
+            </a>
+        </li>
+        <li>
+            <?php else: ?>
+                <span class="disabled">First</span>
+            <?php endif; ?>
+        </li>
+        <li><?php if (isset($this->next)): ?>
+                <a href="<?php echo $this->url(array('page' => $this->last)); ?>">
+                    Last
+                </a>
+            <?php else: ?>
+                <span class="disabled">Last</span>
+            <?php endif; ?></li>
+        <li>
+            <?php if (isset($this->next)): ?>
+                <a href="<?php echo $this->url(array('page' => $this->next)); ?>" aria-label="Next">
+                    <span aria-hidden="true">&raquo; Next</span>
+                </a>
+            <?php else: ?>
+                <span class="disabled">Next &raquo;</span>
+            <?php endif; ?>
+
+        </li>
+    </ul>
+</nav>
+
+
+<?php endif; ?>
+

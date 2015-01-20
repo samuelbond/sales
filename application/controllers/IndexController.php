@@ -9,15 +9,8 @@ class IndexController extends Zend_Controller_Action
 
     public function init()
     {
-// Local to this controller only; affects all actions,
-        // as loaded in init:
         $this->_helper->viewRenderer->setNoRender(true);
-
-        // Globally:
         $this->_helper->removeHelper('viewRenderer');
-
-        // Also globally, but would need to be in conjunction with the
-        // local version in order to propagate for this controller:
         Zend_Controller_Front::getInstance()
             ->setParam('noViewRenderer', true);
 
@@ -33,20 +26,19 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
+        Zend_View_Helper_PaginationControl::setDefaultViewPartial('controls.phtml');
 
-        echo "<pre>";
         $this->component->transformAllSales();
-        print_r($this->component->getTransformedSales());
-        echo "</pre>";
-        echo "i am here";
-        //var_dump($component::getInstance());
+        $transformedSales = $this->component->getTransformedSales();
+        $paginator = Zend_Paginator::factory($transformedSales);
+        $paginator->setItemCountPerPage(20);
+        $paginator->setCurrentPageNumber($this->_getParam('page', 1));
+        $this->view->paginator = $paginator;
+        $this->render();
+
 
     }
 
-    public function testpageAction()
-    {
-        echo "am alive";
-    }
 
 
 }
