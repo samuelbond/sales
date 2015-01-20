@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="915cc87a-0793-490f-ad24-1809252cd142" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/AdvertTransformerDAO.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" afterPath="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sales_app.iws" />
@@ -48,10 +46,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLAdvertTransformerDAO.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="XMLAdvertTransformerDAO.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6756757" vertical-offset="0" max-vertical-offset="888">
+            <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="6" selection-start="224" selection-end="224" vertical-scroll-proportion="0.35512966" vertical-offset="0" max-vertical-offset="887">
               <folding />
             </state>
           </provider>
@@ -102,6 +109,7 @@
         <option value="$PROJECT_DIR$/application/controllers/ErrorController.php" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -345,7 +353,11 @@
       <created>1421712321925</created>
       <updated>1421712321925</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="exceptions added">
+      <created>1421713223173</created>
+      <updated>1421713223173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +402,8 @@
     <MESSAGE value="versions autoload" />
     <MESSAGE value="logic added" />
     <MESSAGE value="Pagination Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pagination Added" />
+    <MESSAGE value="exceptions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -587,7 +600,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/components/AdvertTransformer/XMLAdvertTransformerDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.6756757" vertical-offset="0" max-vertical-offset="888">
+        <state line="45" column="1" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="6" selection-start="224" selection-end="224" vertical-scroll-proportion="0.35512966" vertical-offset="0" max-vertical-offset="887">
           <folding />
         </state>
       </provider>
